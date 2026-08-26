@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iframe Permissions Comparison</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .frame-box {
+      flex: 1 1 48%;
+    }
+
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: 2px solid #333;
+      border-radius: 10px;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Iframe Permission Comparison</h2>
+
+  <div class="container">
+
+    <!-- Version A -->
+    <div class="frame-box">
+      <h3>Version A — Fullscreen Only</h3>
+      <iframe 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="Iframe Fullscreen Only"
+        allow="fullscreen"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- Version B -->
+    <div class="frame-box">
+      <h3>Version B — Fullscreen + Gyroscope + USB</h3>
+      <iframe 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="Iframe Full Permissions"
+        allow="fullscreen; gyroscope; usb"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+  </div>
+
+</body>
+</html>
