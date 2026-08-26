@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><del>Basic Web design</del><ins>Modern Frontend Development</ins></p>
+    <P>Brand new course available!<a href ="frontend-pro.html"><strong>Python with ai and ml</strong></a></P>
+</body>
+</html>
