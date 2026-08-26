@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Iframes Example</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .frame {
+      margin-bottom: 30px;
+    }
+
+    iframe {
+      border: 2px solid #333;
+      border-radius: 8px;
+    }
+
+    .frame1 iframe {
+      width: 600px;
+      height: 350px;
+    }
+
+    .frame2 iframe {
+      width: 500px;
+      height: 300px;
+    }
+
+    .frame3 iframe {
+      width: 700px;
+      height: 450px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- First iframe: fullscreen only -->
+  <div class="frame frame1">
+    <h2>Fullscreen Only Frame</h2>
+    <iframe 
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="Fullscreen Video Frame"
+      allow="fullscreen">
+    </iframe>
+  </div>
+
+  <!-- Second iframe: gyroscope only -->
+  <div class="frame frame2">
+    <h2>Gyroscope Only Frame</h2>
+    <iframe 
+      src="https://www.example.com"
+      title="Gyroscope Enabled Frame"
+      allow="gyroscope">
+    </iframe>
+  </div>
+
+  <!-- Third iframe: USB only -->
+  <div class="frame frame3">
+    <h2>USB Only Frame</h2>
+    <iframe 
+      src="https://www.example.com"
+      title="USB Permission Frame"
+      allow="usb">
+    </iframe>
+  </div>
+
+</body>
+</html>
