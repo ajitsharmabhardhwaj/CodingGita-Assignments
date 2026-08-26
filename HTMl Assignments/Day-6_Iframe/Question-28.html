@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Card Iframe</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f5f5f7;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      width: 90%;
+      max-width: 800px;
+      padding: 20px;
+      border-radius: 16px;
+      background: #ffffff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .card iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <iframe 
+      src="https://www.example.com"
+      title="Gyroscope Enabled Card Frame"
+      allow="gyroscope">
+    </iframe>
+  </div>
+
+</body>
+</html>
