@@ -424,6 +424,8 @@ print("College Type:", type(college_name))
 =======
 >>>>>>> d645f9b (Python-Assignment-1 Uploding)
 
+# complete assignment
+
 
 
 
