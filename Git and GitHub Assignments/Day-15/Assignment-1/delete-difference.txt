@@ -1,0 +1,7 @@
+Difference between rm and git rm:
+- rm deletes the file from the working directory only. Git still sees it as deleted but unstaged.
+- git rm deletes the file and stages the deletion, so it is ready to be committed.
+
+When to use git rm:
+- Use git rm when you want Git to track the deletion and include it in the next commit.
+- rm is fine if you just want to remove a file locally, but you must run git add/rm afterward to update Git.
