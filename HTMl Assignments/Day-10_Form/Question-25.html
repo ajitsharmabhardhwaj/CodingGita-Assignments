@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Field Example</title>
+</head>
+<body>
+
+    <form action="/submit.php" method="post">
+
+        <!-- Hidden session token (not visible to user) -->
+        <input 
+            type="hidden" 
+            name="session_token" 
+            value="abc123xyz789">
+
+        <!-- Visible input -->
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username">
+
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
