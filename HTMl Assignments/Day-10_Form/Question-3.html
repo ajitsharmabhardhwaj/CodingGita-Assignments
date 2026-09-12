@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form without Validation</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form action="../submit.php" method="post" novalidate>
+        
+       <!--Name Block-->
+       <lable for="Name">Enter your name</lable>
+       <input type="text" id="name" name="name" required><br><br>
+       
+       <!--Email-->
+       <lable for="Email">Enter your Email Adress</lable>
+       <input type="email" id="Email" name="Email"><br><br>
+       
+       <!--Descriptiom-->
+       <lable for="--Descriptiom--">Enter a /nice description</lable>
+       <input type="text" rows="4" cols="20" placeholder="Write something good that happened with you today"><br><br>
+
+    </form>
+
+</body>
+</html>

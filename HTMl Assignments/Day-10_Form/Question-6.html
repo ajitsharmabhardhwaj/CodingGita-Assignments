@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plain Text Form</title>
+</head>
+<body>
+
+    <h2>Plain Text Form</h2>
+
+    <!-- 
+        enctype="text/plain" sends form data as plain text.
+        It is rarely used in real-world applications because it lacks structure and security.
+    -->
+    <form action="/submit.php" method="post" enctype="text/plain">
+
+        <!-- First Text Input -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"><br><br>
+
+        <!-- Second Text Input -->
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
