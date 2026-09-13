@@ -418,11 +418,8 @@ print("Name Type:", type(name))
 print("Age Type:", type(age))
 print("Marks Type:", type(marks))
 print("College Type:", type(college_name))
-<<<<<<< HEAD
 
 # complete assignment
-=======
->>>>>>> d645f9b (Python-Assignment-1 Uploding)
 
 # complete assignment
 
