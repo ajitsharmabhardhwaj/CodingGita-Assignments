@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Method Override</title>
+</head>
+<body>
+
+    <h2>Submit Using POST or GET</h2>
+
+    <!-- Default method is POST -->
+    <form action="/submit.php" method="post">
+
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <!-- Button 1: Uses default POST -->
+        <button type="submit">
+            Submit with POST
+        </button>
+
+        <!-- Button 2: Overrides to GET -->
+        <button type="submit" formmethod="get">
+            Submit with GET
+        </button>
+
+    </form>
+
+</body>
+</html>
