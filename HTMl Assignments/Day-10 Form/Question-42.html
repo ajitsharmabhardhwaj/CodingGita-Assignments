@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Override Attributes Demo</title>
+</head>
+<body>
+
+    <h2>Form Override Attributes Demo</h2>
+
+    <!-- Default form settings -->
+    <form action="/default-submit.php" method="post" target="_self">
+
+        <!-- Required Fields -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- 1. Default Submit -->
+        <button type="submit">
+            Default Submit
+        </button>
+
+        <!-- 2. Override Action -->
+        <button type="submit" formaction="/save-different.php">
+            Submit to Different URL
+        </button>
+
+        <!-- 3. Override Method -->
+        <button type="submit" formmethod="get">
+            Submit with GET
+        </button>
+
+        <!-- 4. Skip Validation -->
+        <button type="submit" formnovalidate>
+            Save Without Validation
+        </button>
+
+        <!-- 5. Open in New Tab -->
+        <button type="submit" formtarget="_blank">
+            Open Result in New Tab
+        </button>
+
+    </form>
+
+</body>
+</html>

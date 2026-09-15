@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Form</title>
+</head>
+<body>
+
+    <h2>Upload Your Details</h2>
+
+    <!-- 
+        enctype="multipart/form-data" is mandatory for file uploads
+    -->
+    <form action="/upload.php" method="post" enctype="multipart/form-data">
+
+        <!-- Resume Upload -->
+        <label for="resume">Upload Resume (PDF/DOCX):</label><br>
+        <input 
+            type="file" 
+            id="resume" 
+            name="resume"
+            accept=".pdf,.docx"
+            required>
+        <br><br>
+
+        <!-- Profile Photo Upload -->
+        <label for="photo">Upload Profile Photo:</label><br>
+        <input 
+            type="file" 
+            id="photo" 
+            name="photo"
+            accept="image/*">
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Upload Files</button>
+
+    </form>
+
+</body>
+</html>
