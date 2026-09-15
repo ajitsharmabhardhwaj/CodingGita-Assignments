@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formaction Example</title>
+</head>
+<body>
+
+    <h2>Submit to Different URLs</h2>
+
+    <!-- Form with default action -->
+    <form action="/default-submit.php" method="post">
+
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <!-- Button 1: Uses default form action -->
+        <button type="submit">
+            Submit Normally
+        </button>
+
+        <!-- Button 2: Overrides action -->
+        <button type="submit" formaction="/alternate-submit.php">
+            Submit to Alternate
+        </button>
+
+    </form>
+
+</body>
+</html>

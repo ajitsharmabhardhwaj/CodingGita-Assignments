@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+
+    <h2>Job Application Form</h2>
+
+    <!-- Must use multipart/form-data for file upload -->
+    <form action="/apply.php" method="post" enctype="multipart/form-data">
+
+        <!-- Personal Details -->
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required>
+        </fieldset>
+
+        <br>
+
+        <!-- Experience -->
+        <fieldset>
+            <legend>Experience</legend>
+
+            <label for="experience">Describe your experience:</label><br>
+            <textarea 
+                id="experience" 
+                name="experience" 
+                rows="5" 
+                cols="40" 
+                required
+                placeholder="Tell us about your skills and experience...">
+            </textarea>
+        </fieldset>
+
+        <br>
+
+        <!-- Resume Upload -->
+        <fieldset>
+            <legend>Resume Upload</legend>
+
+            <label for="resume">Upload Resume (PDF only):</label><br>
+            <input 
+                type="file" 
+                id="resume" 
+                name="resume"
+                accept=".pdf"
+                required>
+        </fieldset>
+
+        <br>
+
+        <!-- Employment Type -->
+        <fieldset>
+            <legend>Employment Type</legend>
+
+            <input type="radio" id="fulltime" name="employment" value="fulltime" required>
+            <label for="fulltime">Full-Time</label><br>
+
+            <input type="radio" id="parttime" name="employment" value="parttime">
+            <label for="parttime">Part-Time</label><br>
+
+            <input type="radio" id="intern" name="employment" value="intern">
+            <label for="intern">Internship</label>
+        </fieldset>
+
+        <br>
+
+        <!-- Terms and Conditions -->
+        <fieldset>
+            <legend>Agreement</legend>
+
+            <input 
+                type="checkbox" 
+                id="terms" 
+                name="terms" 
+                value="accepted" 
+                required>
+            <label for="terms">I agree to the terms and conditions</label>
+        </fieldset>
+
+        <br>
+
+        <!-- Submit Buttons -->
+        <button type="submit">Submit Application</button>
+
+        <button type="submit" formnovalidate>
+            Save as Draft
+        </button>
+
+    </form>
+
+</body>
+</html>
