@@ -1,0 +1,11 @@
+var x = 10;
+
+if (true) {
+    var x = 20;
+    let y = 30;
+    const z = 40;
+}
+
+console.log(x);  //this value will be run
+console.log(y);  //this value will be not run
+console.log(z);  //this value will be not run

@@ -1,0 +1,13 @@
+let x=10
+if (x=10){
+    var user1="lakshya"
+     user1="Luky"
+    let user2="Antim"
+     user2="Anshu"
+    const name3="Ram"
+     name3="Lakshman"
+     console.log(user1);
+console.log(user2);
+console.log(name3);
+
+}
