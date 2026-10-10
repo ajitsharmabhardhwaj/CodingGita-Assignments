@@ -13,3 +13,4 @@ console.log(true === 1);//false
 console.log("" === 0);//false
 // console.log([] === false);//false
 
+//

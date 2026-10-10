@@ -12,5 +12,5 @@ console.log(null == undefined);//true
 console.log("" == 0);//true
 console.log([] == false);//true
 
-// Question-5
+// Question-5 //
 console.log(NaN == NaN)//false
