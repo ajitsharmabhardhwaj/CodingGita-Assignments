@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100vw;
+
+}
+
+.left-logo {
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+}
+
+.cart {
+    width: 25px;
+}
+.body{
+    /* border: 1px solid; */
+    height: 335px;
+    width: 100vw;
+    background-image: url(images/kw-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.text{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    line-height: 50px;
+    
+}
+.new{
+    font-size: 16px;
+    
+
+}
+.main {
+    /* border: 1px solid; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.mainbox{
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    /* border: 1px solid red; */
+    margin: 50px;
+    /* margin-top: 80px; */
+    /* display: flex; */
+}
+.text-1{
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.box{
+    /* border: 1px green solid; */
+    margin-top: 5px;
+}
+.first{
+    /* border: 1px solid blue; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 152px;
+    line-height: 20px;
+}
+.imag{
+    width: 150px;
+    height: 220px;
+}
+.text-2{
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 5px;
+    
+}
+.text-3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(96, 95, 95);
+}
+button{
+    background-color: #6196FF;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 1px;
+}
+.white{
+    width: 15px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.text-5{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: arial;
+}
+.second{
+     height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    line-height: 20px; 
+}
+.image{
+    width: 200px;
+    height: 220px;
+}
