@@ -1,0 +1,22 @@
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid;
+}
+aside{
+    height: 100vh;
+    width: 200px;
+    border: 1px solid red;
+
+}
+.image-1{
+    width: 20px;
+}
+.top{
+    /* margin-left: ; */
+}
