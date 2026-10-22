@@ -135,3 +135,30 @@ button{
     width: 200px;
     height: 220px;
 }
+@media(max-width:786px) {
+    nav {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100vw;
+
+}
+.logo {
+    width: 50px;
+}
+.body{
+    /* border: 1px solid; */
+    height: 335px;
+    width: 50vw;
+    background-image: url(images/kw-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+}
