@@ -1,22 +1,215 @@
 *{
-    background-color: black;
     margin: 0px;
     padding: 0px;
+    color: white;
+    font-family: ARIAL;
+}
+body{
+    background-color: #181818;
 }
 .main{
-    height: 100vh;
-    width: 100vw;
-    border: 1px solid;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* border: 1px solid red; */
+    display: flex;
+    /* background-color: #212121; */
+
 }
 aside{
     height: 100vh;
-    width: 200px;
-    border: 1px solid red;
+    width: 15vw;
+    border: 1px solid rgb(119, 117, 117);
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 10px;
+    /* align-items: flex-start; */
+    background-color: #212121;
+    
 
 }
-.image-1{
-    width: 20px;
-}
 .top{
+    /* border: 1px solid rgb(77, 128, 0); */
+    display: flex;
+    gap: 20px;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.home{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.home:hover{
+    opacity: 0.6;
+    background-color: #4f4f4f;
+    cursor: pointer;
+    
+}
+.middle{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: space-between;
+    /* align-self: flex-start; */
+    /* margin-right: 20px; */
+       
+}
+.third{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    justify-content: space-between;
+    width: 190px;
+    /* margin-top: 5px; */
+    
+
+}
+.four{
+    width: 190px;
+
+     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    justify-content: space-between;
+}
+hr{
+    margin-bottom: 10px;
+    height: 1px;
+    background-color: #4f4f4f;
+    border: none;
+}
+/* header  */
+
+
+.nav{
+    /* width: 83vw; */
+    /* border: 2px solid red; */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+.search{
+    display: flex;
+
+}
+.left{
+    display: flex;
+    gap: 10px;
+    padding-left: 100px;
+}
+.set{
+    border: 1px solid rgb(49, 49, 49);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top:3px;
+    /* opacity: .6; */
+    background-color: #4f4f4f;
+}
+input{
+    background-color: black;
+    border: 1px solid rgb(132, 129, 129);
+    color: white;  
+    width: 600px;  
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 70px;
     /* margin-left: ; */
+}
+#line{
+    margin-left: 30px;
+    height: 1px;
+    background-color: #4f4f4f;
+    border: none;
+}
+.content-type{
+    /* border: 1PX solid red; */
+    display: flex;
+    gap: 10px;
+    /* margin-left: 40px; */
+    padding-left: 40px;
+}
+.all-1{
+    /* border: 1px solid red; */
+    display: inline;
+    padding: 5px;
+    border-radius: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: white;
+    color: gray;
+}
+.all{
+    border: none;
+    display: inline;
+    padding: 5px;
+    border-radius: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: rgb(85, 85, 85);
+    opacity: .6;
+}
+.all:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    opacity: 10;
+}
+#line-1{
+     margin-left: 30px;
+    height: 1px;
+    background-color: #4f4f4f;
+    border: none;
+    margin-top: 10px;
+}
+.content{
+    /* border: 1px solid red; */
+    /* margin: 25px; */
+    width: 17vw;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    column-gap: 25px;
+    row-gap: ;
+}
+.bottom{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px
+}
+.text-1{
+    /* line-height: ; */
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+}
+.verified{
+    height: 12px;
+    color: white;
+}
+.outer{
+    /* border: 1px solid red; */
+}
+.ram{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+    margin: 30px;
+    gap: 10px;
 }
