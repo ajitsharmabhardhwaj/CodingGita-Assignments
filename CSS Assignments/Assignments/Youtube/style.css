@@ -186,12 +186,13 @@ input{
     /* flex-wrap: wrap; */
     /* flex-direction: row; */
     column-gap: 25px;
-    row-gap: ;
+    /* row-gap: ; */
 }
 .bottom{
     display: flex;
     justify-content: flex-start;
-    gap: 10px
+    gap: 10px;
+    margin-top: 10px;
 }
 .text-1{
     /* line-height: ; */
@@ -205,11 +206,17 @@ input{
 }
 .outer{
     /* border: 1px solid red; */
+    /* display: grid; */
+    margin: 3px;
+    
 }
-.ram{
-    display: flex;
-    flex-wrap: wrap;
-    /* border: 1px solid blue; */
-    margin: 30px;
-    gap: 10px;
+.video{
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw 18vw;
+    margin-left: 40px;
+    margin-top: 15px;
+    gap: 15px 15px;
+}
+.im{
+    width: 18vw;
 }
